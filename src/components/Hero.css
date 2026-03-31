@@ -38,6 +38,15 @@
   max-width: 860px;
 }
 
+.hero-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
 .hero-badge {
   display: inline-flex;
   align-items: center;
@@ -51,7 +60,16 @@
   font-weight: 600;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  margin-bottom: 28px;
+}
+
+.hero-badge-alt {
+  background: rgba(67, 232, 160, 0.1);
+  border-color: rgba(67, 232, 160, 0.35);
+  color: #43E8A0;
+}
+
+.badge-dot-alt {
+  background: #43E8A0 !important;
 }
 
 .badge-dot {

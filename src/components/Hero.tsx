@@ -19,9 +19,15 @@ export default function Hero() {
       <div className="hero-video-overlay" />
 
       <div className="container hero-content">
-        <div className="hero-badge">
-          <span className="badge-dot" />
-          Agencia de Servicios Digitales
+        <div className="hero-badges">
+          <div className="hero-badge">
+            <span className="badge-dot" />
+            Agencia de Servicios Digitales
+          </div>
+          <div className="hero-badge hero-badge-alt">
+            <span className="badge-dot badge-dot-alt" />
+            Automatización
+          </div>
         </div>
 
         <h1 className="hero-title">

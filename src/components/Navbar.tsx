@@ -45,7 +45,12 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="#contacto" className="btn-primary nav-cta" onClick={(e) => handleNavClick(e, '#contacto')}>
+          <a
+            href="https://wa.me/56954922608"
+            className="btn-primary nav-cta"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Cotizar Ahora
           </a>
         </nav>
