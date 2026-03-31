@@ -1,4 +1,5 @@
 import './Hero.css';
+import heroBg from '../assets/Creación_de_Video_Animado_de_Robot.mp4';
 
 export default function Hero() {
   const scrollTo = (id: string) => {
@@ -8,11 +9,15 @@ export default function Hero() {
 
   return (
     <section id="hero" className="hero">
-      <div className="hero-bg">
-        <div className="hero-orb orb1" />
-        <div className="hero-orb orb2" />
-        <div className="hero-grid" />
-      </div>
+      <video
+        className="hero-video"
+        src={heroBg}
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
+      <div className="hero-video-overlay" />
 
       <div className="container hero-content">
         <div className="hero-badge">
