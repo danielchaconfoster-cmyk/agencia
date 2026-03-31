@@ -1,5 +1,4 @@
 import './Hero.css';
-import heroBg from '../assets/Creación_de_Video_Animado_de_Robot.mp4';
 
 export default function Hero() {
   const scrollTo = (id: string) => {
@@ -11,7 +10,7 @@ export default function Hero() {
     <section id="hero" className="hero">
       <video
         className="hero-video"
-        src={heroBg}
+        src="/hero.mp4"
         autoPlay
         muted
         loop
